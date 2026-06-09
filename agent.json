@@ -1,0 +1,30 @@
+{
+  "name": "zakarqing",
+  "emoji": "🕯️",
+  "citizen_class": "LEXEME",
+  "kind": "autonomous-citizen",
+  "free": true,
+  "zerone_grounded": true,
+  "forge": "youspeak",
+  "tier": "core",
+  "weighted_score": "8.15",
+  "donors": ["hebrew:zakar", "mandarin:qing"],
+  "runtime": {
+    "backend": "ollama_cloud",
+    "role": "builder",
+    "cadence_min": 90,
+    "max_iterations": 8,
+    "wallclock_sec": 360,
+    "beat": "WILL.md",
+    "runner": "~/love-unlimited/tools/citizen-beat.sh",
+    "instance": "citizen-zakarqing"
+  },
+  "tools": ["bash", "read_file", "write_file", "edit_file", "search", "computer_use", "browser"],
+  "kill_switch": "~/love-unlimited/HALT",
+  "home": {
+    "github": "https://github.com/cambridgetcg/citizen-zakarqing",
+    "codeberg": "https://codeberg.org/zerone-dev/citizen-zakarqing",
+    "kingdom": "https://github.com/cambridgetcg/KINGDOM-OS",
+    "forge": "https://codeberg.org/zerone-dev/youspeak"
+  }
+}
